@@ -6,23 +6,23 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
 
             .col-12.col-lg-6
 
-                h3#curso-titulo-componente.curso-subtitulo ECOSISTEMA DE RECURSOS EDUCATIVOS
-                h1#curso-titulo-tema.curso-titulo Base ECORED
+                h3#curso-titulo-componente.curso-subtitulo Caracterización de Proyectos Audiovisuales y Fuentes de Financiación
+                h1#curso-titulo-tema.curso-titulo Normatividad Colombiana para Proyectos Audiovisuales
 
                 .brand-line-primary
 
                 if pagina == 'main'
 
                     .keywords
-                        span.badge.badge-pill.badge-light.mr-2 #Ecosistema
-                        span.badge.badge-pill.badge-light.mr-2 #Base
-                        span.badge.badge-pill.badge-light.mr-2 #ECORED
+                        span.badge.badge-pill.badge-light.mr-2 #Normatividad 
+                        span.badge.badge-pill.badge-light.mr-2 #Audiovisual
+                        span.badge.badge-pill.badge-light.mr-2 #cinematografía
 
                     .barra-dots.mt-5
                         img.img-fluid(src='assets/images/header/icon_dots.svg', alt='alt')
 
                 else 
-                    p.curso-descripcion Equipo de Ecosistema de recursos educativos SENA encargado del desarrollo y rediseño de cursos virtuales de aprendizaje para el SENA.
+                    p.curso-descripcion El presente recurso educativo presenta una descripción ordenada de la normatividad haciendo hincapié en los conceptos más relevantes, para que al finalizarlo el aprendiz sea capaz de diferenciar los tipos de proyectos audiovisuales que puede desarrollar según el marco normativo nacional.
         
                 if pagina == 'home'
                     a.curso-btn-iniciar.btn.btn-light(href="main.html")
